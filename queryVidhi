@@ -1,0 +1,1 @@
+Select id, createddate, CreatedBy.Name, Source__c from Mailjet_Message__c where createddate = TODAY and Source__c = 'EWI Insured' order by createddate desc
